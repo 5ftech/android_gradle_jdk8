@@ -37,4 +37,4 @@ ADD build.sh /root/
 #源码路径 /usr/share/src
 
 #执行命令
-CMD ["/root/build.sh"]
+CMD ["sudo sh /root/build.sh"]
