@@ -30,9 +30,11 @@ RUN mkdir -p /Users/gthowe/Library/Android/sdk
 RUN mkdir -p /root/.gradle/
 WORKDIR /usr/share/src
 
+ADD build.sh /root/
+
 #安卓sdk路径 /Users/gthowe/Library/Android/sdk
 #.gradle依赖库路径 /root/.gradle/
 #源码路径 /usr/share/src
 
 #执行命令
-#gradle init wrapper && gradle assembleRelease
+CMD ["/root/build.sh"]
