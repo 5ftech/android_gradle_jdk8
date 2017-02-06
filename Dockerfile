@@ -34,5 +34,5 @@ WORKDIR /usr/share/src
 #.gradle依赖库路径 /root/.gradle/
 #源码路径 /usr/share/src
 
-#gradle init wrapper
-#gradle assembleRelease
+#执行命令
+#gradle init wrapper && gradle assembleRelease
