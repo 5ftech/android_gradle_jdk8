@@ -26,7 +26,7 @@ RUN unzip gradle-2.14.1-all.zip
 ENV GRADLE_HOME /usr/share/android/gradle-2.14.1
 ENV PATH ${JAVA_HOME}/bin:${GRADLE_HOME}/bin:$PATH
 
-RUN mkdir -p /Users/gthowe/Library/Android/sdk
+RUN mkdir -p /Users/android/Library/Android/sdk
 RUN mkdir -p /root/.gradle/
 WORKDIR /usr/share/src
 
